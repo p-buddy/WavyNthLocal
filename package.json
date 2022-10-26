@@ -1,0 +1,23 @@
+{
+  "name": "wavynthlocal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundle.js",
+  "source": "index.ts",
+  "scripts": {
+    "dev": "ts-node bundle.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-sucrase": "^5.0.1",
+    "@rollup/plugin-typescript": "^9.0.2",
+    "@types/glob": "^8.0.0",
+    "chokidar": "^3.5.3",
+    "glob": "^8.0.3",
+    "rollup-plugin-terser": "^7.0.2",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.4"
+  }
+}
